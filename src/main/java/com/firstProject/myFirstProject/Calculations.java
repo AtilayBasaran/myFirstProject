@@ -5,13 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/message")
-public class HelloWorld {
+@RequestMapping("/message2")
+public class Calculations {
 
     @GetMapping()
-    public String hello(){
-
-        return "Hello";
+    public int calculations(){
+        return 5;
     }
-
 }
